@@ -8,7 +8,7 @@ class GolembaseDemoCli < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", "-o", bin/"golembase-demo-cli", *std_go_args(output: nil)
+    system "go", "build", "-o", bin/"golembase-demo-cli", *std_go_args
   end
 
   test do
