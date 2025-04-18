@@ -1,8 +1,8 @@
 class GolembaseDemoCli < Formula
   desc "Command-line for golembase demo"
   homepage "https://github.com/Golem-Base/golembase-demo-cli"
-  url "https://github.com/Golem-Base/golembase-demo-cli/archive/refs/tags/v0.0.3.tar.gz"
-  sha256 "ede8bb72be9392d113904a8791227dd98415669a10f9a0319347c130525f7b31"
+  url "https://github.com/Golem-Base/golembase-demo-cli/archive/refs/tags/v0.0.4.tar.gz"
+  sha256 "a790deb97d4763781813da92457154ca319cda84c4687d85d60690d4d545ea2f"
   license "GPL-3.0-or-later"
 
   depends_on "go" => :build
